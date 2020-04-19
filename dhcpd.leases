@@ -1,0 +1,49 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.4.1
+
+# authoring-byte-order entry is generated, DO NOT DELETE
+authoring-byte-order little-endian;
+
+server-duid "\000\001\000\001&\032Z\317\334\2462-\266\177";
+
+lease 192.168.1.203 {
+  starts 5 2020/04/03 20:39:46;
+  ends 5 2020/04/03 22:39:46;
+  cltt 5 2020/04/03 20:39:46;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 00:0c:29:b3:15:2e;
+  client-hostname "kali";
+}
+lease 192.168.1.202 {
+  starts 5 2020/04/03 20:45:53;
+  ends 5 2020/04/03 22:45:53;
+  cltt 5 2020/04/03 20:45:53;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 88:71:e5:a2:ff:66;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "amazon-43faa4ef3";
+}
+lease 192.168.1.204 {
+  starts 5 2020/04/03 20:52:58;
+  ends 5 2020/04/03 22:52:58;
+  cltt 5 2020/04/03 20:52:58;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 88:71:e5:b3:cb:4e;
+  set vendor-class-identifier = "dhcpcd-5.5.6";
+  client-hostname "amazon-205f4e28e";
+}
+lease 192.168.1.201 {
+  starts 5 2020/04/03 21:04:27;
+  ends 5 2020/04/03 23:04:27;
+  cltt 5 2020/04/03 21:04:27;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 58:2f:40:10:c5:0a;
+}
